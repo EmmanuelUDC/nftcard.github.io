@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none ;
+    background: hsl(215, 51%, 70%);
+    height: 1px;
+    
+}
+
+body{
+    background-color:  hsl(217, 54%, 11%);
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    max-width: 375px;
+    background-color: hsl(216, 50%, 16%);
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.container .container-img{
+    width: 100%;
+    padding: 10px;
+}
+
+.container .container-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container .container-info{
+    padding: 10px;
+}
+
+.container-info h3{
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container-info p{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price-date-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px;
+    font-size: 15px;
+}
+
+.price-date-info .price{
+    display: flex;
+}
+
+.price-date-info .price p{
+    padding-left: 10px;
+    color: hsl(178, 100%, 50%);
+}
+
+.price-date-info .date{
+    display: flex;
+}
+
+.price-date-info .date img{
+    padding-right: 10px;
+}
+
+.price-date-info .date p{
+    color: hsl(215, 51%, 70%);
+ }
+
+.avatar{
+    padding: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.avatar img{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.avatar span{
+    color: hsl(215, 51%, 70%);
+}
+
+.avatar p{
+    margin-top: 7px;
+    color: hsl(0, 0%, 100%);
+}
