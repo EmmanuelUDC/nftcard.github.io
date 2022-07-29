@@ -17,7 +17,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://github.com/EmmanuelUDC/nftcard.github.io.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://emmanueludc.github.io/nftcard.github.io/)
 
 ## My process
 
